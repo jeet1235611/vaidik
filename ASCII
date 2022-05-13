@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+    char a = 'A';
+    int b = a;
+    int c = 'B';
+    //int d = C;// Ye wali line incorrect as C behaves like undeclared variable and not the alphabet C
+    cout << a << endl;
+    cout << b << endl;//One way to print the ASCII value
+    cout << c << endl;//Another way to print the ASCII value
+}
+
+//Output
+
+A
+65
+66
+ 
