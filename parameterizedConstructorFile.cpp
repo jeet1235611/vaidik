@@ -21,7 +21,7 @@ public:
 
 int main() {
 	Point p(8, 10);
-//	cout << p.x << endl << p.y << endl; 		// This work is done by the getters and the setters.
+//	cout << p.x << endl << p.y << endl; 		// This work is done by the getters and the setters as x and y are the private variables therefore you need getters and the setters to access them
     cout << p.getX() << endl; 
     cout << p.getY() << endl;
 	return 0;
